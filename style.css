@@ -1,0 +1,30 @@
+#backround{
+    background: linear-gradient(rgb(232, 122, 75), rgb(3, 209, 137));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#title1{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+#title2{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Tahoma', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+#inputText{
+   color: black;
+}
+#labelText{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.Todo{
+    background-color: aqua;
+}
