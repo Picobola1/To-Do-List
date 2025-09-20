@@ -67,11 +67,13 @@ document.getElementById("accecptButtons").onclick = function(){
    document.getElementById("inputText").value = "";
    createNewCheckBox.onclick = function(){
         if (createNewCheckBox.checked) {
+            let randomNumber = Math.floor(Math.random() * 10);
             createNewLine.style.textDecoration = "line-through";
             createNewLine.style.textDecorationThickness = "2px";
             createNewLine.style.textDecorationColor = "rgb(0,0,0)";
-            console.log(InsultArray[4])
-            let InsultToPlay = new Audio(InsultArray[4]);
+            console.log(InsultArray[randomNumber])
+            let InsultToPlay = new Audio(InsultArray[randomNumber]);
+        
             InsultToPlay.play()
 
         } else {
