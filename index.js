@@ -1,6 +1,6 @@
 let input;
 const checkboxClass = document.getElementsByClassName("checkbox");
-
+const AudioTest = new Audio("insultList")
 
 // welp its what the var says
 const clearButton = document.getElementById("clearButton");
@@ -28,6 +28,7 @@ document.getElementById("accecptButtons").onclick = function(){
             createNewLine.style.textDecoration = "line-through";
             createNewLine.style.textDecorationThickness = "2px";
             createNewLine.style.textDecorationColor = "rgb(0,0,0)";
+
         } else {
             createNewLine.style.textDecoration = "none";
         }
