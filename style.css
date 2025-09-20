@@ -19,12 +19,35 @@
 }
 #inputText{
    color: black;
+   text-align: center;
+   align-items: center;
+   margin-top: 50px;
 }
 #labelText{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
+    
 }
-.Todo{
-    background-color: aqua;
+.ToDoContainer{
+    background-color: rgb(154, 228, 228);
+    text-align: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+}
+#list-container{
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    display: flex;
+    
+}
+#list-container li {
+    margin: 5px 0;   
+}
+.checkbox{
+    margin-left: 25px;
 }
