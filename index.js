@@ -6,6 +6,7 @@ const checkboxClass = document.getElementsByClassName("checkbox");
 const clearButton = document.getElementById("clearButton");
 let newTextIntoList = document.querySelector("#list-container ol");
 let newCheckboxIntoList = document.querySelector("#list-container ol li");
+const listContainer = document.getElementById("list-container")
 
 document.getElementById("accecptButtons").onclick = function(){
    
@@ -34,6 +35,7 @@ document.getElementById("accecptButtons").onclick = function(){
 
 } 
 clearButton.onclick = function(){
-        if (clearButton.click){console.log("clear");}
-        
+    console.log("clear");
+    // reaplces all the children of list container with air
+    newTextIntoList.replaceChildren();
     }
